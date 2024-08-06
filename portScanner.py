@@ -1,7 +1,7 @@
 import socket
 
 # target = "127.0.0.1" # for your own System
-target = "172.16.10.102"
+target = "111.11.11.11"
 
 def portScanner(port):
 
