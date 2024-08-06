@@ -103,5 +103,5 @@ def run_scanner(threads, mode):
     # After scanning, print all open ports that were found
     print("Open ports are:", open_ports)
 
-# Run the port scanner with 200 threads and using mode 2 (scan ports 1 to 49151)
-run_scanner(200, 2)
+# Run the port scanner with 200 threads and using mode 1 (scan ports 1 to 1024)
+run_scanner(200, 1)
